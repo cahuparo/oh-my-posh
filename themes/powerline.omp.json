@@ -13,7 +13,7 @@
         {
           "foreground": "#ffffff",
           "style": "plain",
-          "template": " {{ .UserName }}@{{ .HostName }}\n ",
+          "template": " {{ .UserName }}@{{ .HostName }} ",
           "type": "session"
         },
         {
@@ -32,7 +32,7 @@
           "foreground": "#193549",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
-          "template": " {{ .HEAD }} ",
+          "template": " {{ .HEAD }}\n ",
           "type": "git"
         },
         {
